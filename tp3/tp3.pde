@@ -13,7 +13,11 @@ void setup() {
 
 void draw() {
   grilla(400);
-  println("Área total de los rectángulos: " + calcularAreaTotal(180)); // Imprimir el área total
+  String mensaje = funcionamiento();
+  textSize(20);
+  fill(23, 11, 100);
+  text(mensaje, 10, height-60);
+  fill (250);
 }
 
 void keyPressed() { //esta es una función que no retorna valor, maneja estados a través de teclas
@@ -65,9 +69,7 @@ void dibujo(int posX, int posY, int vx, int vy) {
   }
 }
 
-// Nueva función que calcula el área total de los rectángulos en la grilla
-int calcularAreaTotal(int tamLado) {
-  int numRectangulos = 4; // Número de rectángulos en la grilla (2x2)
-  int areaRectangulo = tamLado * tamLado; // Área de un rectángulo
-  return numRectangulos * areaRectangulo; // Área total de los rectángulos
+ String funcionamiento() {
+  // fill(23, 11, 100);
+  return "Bienvenido al programa. \ncambia el color con R,V,A. reinicia con i \n mouse altera los colores en escalas de grises";
 }
