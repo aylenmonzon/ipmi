@@ -1,6 +1,12 @@
 // Aylen Abigail Monzon comision 3
 //https://youtu.be/N3YclJRObnQ
 
+// hola profe perdon no pude rehacer el video, mi compu es bastante vieja y no le anda el microfono, a demasss apenas corre processing solo
+//no se banca dos programas a la vez, el video que tengo es el que hice para la primera entrega y lo hice con la compu de una amiga. 
+//quise arreglar con ella para volver a grabarlo pero esta muy engripada y no conozco a otra persona que me quiera prestar su compu o viva cerca
+//en mi casa la unica que hay es la mia, te pido disculpas voy a intentar que esto no vuelva a ocurrir 
+
+
 PImage ilusion;
 String estado = "princ";
 
